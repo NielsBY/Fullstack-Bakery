@@ -1,0 +1,57 @@
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+  padding-right: 1ch;
+  font: 1em sans-serif;
+  padding: 3vw;
+  margin: 6vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  gap: 2ch;
+  font: 1em sans-serif;
+}
+main {
+  display: flex;
+  flex-grow: 2;
+  font: 1em sans-serif;
+}
+.testimonial {
+  background-color: rgb(170, 165, 165);
+  font: 1em sans-serif;
+  font-style: italic;
+  padding: 2vw;
+  margin: 3vw;
+}
+footer {
+  background-color: black;
+  color: yellow;
+  font: 1em sans-serif;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1ch;
+  font: 1em sans-serif;
+}
+li {
+  border: 0.1ch solid black;
+  background-color: rgb(248, 132, 132);
+  font: 1em sans-serif;
+  padding: 1vw;
+}
